@@ -6,11 +6,19 @@ h1, h2, h3, h4, h5, h6{
   font-family: sans-serif;
 }
 
-.scoreBoard table, th{
+table{
   margin: 0 auto;
   background-color: yellow;
-  border-style: solid; red;
+  border-color: white;
+  border: 1px solid black;
   text-align: center;
+}
+th{
+  border: 1px solid black;
+  background-color: yellow;
+}
+td{
+  border-bottom: 1px solid black;
 }
 
 ul li{
@@ -45,3 +53,4 @@ img{
   height: 175px;
 }
 tr:nth-child(even) {background-color: white;}
+tr:nth-child(odd) {background-color: lightgray;}
